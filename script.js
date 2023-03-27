@@ -9,6 +9,7 @@ set.onclick=(e)=>{
     setTimeout(()=>{
         play()
     },time*1000)
+    alert("Alarm set after",time,"seconds")
     }
     else{
         alert("Enter time interval in seconds please!!")
