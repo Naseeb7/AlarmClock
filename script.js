@@ -6,7 +6,7 @@ set.onclick=(e)=>{
     e.preventDefault()
     let time=document.getElementById("time").value
     if(time.length>=1){
-        alert("Alarm set after",time,"seconds")
+        alert("Alarm set after"+time+"seconds")
     setTimeout(()=>{
         play()
     },time*1000)
